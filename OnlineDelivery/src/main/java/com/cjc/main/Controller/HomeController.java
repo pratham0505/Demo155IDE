@@ -75,4 +75,9 @@ public class HomeController {
 	{
 		return "new msg";
 	}
+	
+	@RequestMapping("/pushmsg")
+	public String pusgmsg() {
+		return "change msg";
+	}
 }
