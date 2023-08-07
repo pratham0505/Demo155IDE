@@ -69,4 +69,10 @@ public class HomeController {
 		
 		return new ResponseEntity<BaseResponce<List<Product>>>(new BaseResponce<List<Product>>(200, "Serach Result",new Date(),searchedProduct),HttpStatus.OK);
 	}
+	
+	@GetMapping("/getmsg")
+	public String getmsg()
+	{
+		return "new msg";
+	}
 }
