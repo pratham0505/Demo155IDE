@@ -80,4 +80,10 @@ public class HomeController {
 	public String pusgmsg() {
 		return "change msg";
 	}
+	@RequestMapping("/msg")
+	public String addmsg()
+	{
+		return "chandramukhi";
+	}
+	
 }
